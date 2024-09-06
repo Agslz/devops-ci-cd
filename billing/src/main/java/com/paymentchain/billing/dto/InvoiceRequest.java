@@ -9,10 +9,6 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-/**
- *
- * @author sotobotero
- */
 @Data
 @ApiModel(description = "This model represent a Invoice data that user receive when make a request method" )
 public class InvoiceRequest {
